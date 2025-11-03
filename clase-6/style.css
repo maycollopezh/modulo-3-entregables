@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.agregarComentarios button{
+    margin-top: 20px;
+}
