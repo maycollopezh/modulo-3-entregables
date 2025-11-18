@@ -1,9 +1,75 @@
 body{
     display: flex;
     flex-direction: column;
-    text-align: center;    
+    text-align: center; 
+    align-items: center;  
+    background-color: rgb(94, 205, 232);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1rem;
+    justify-content: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+body h1{
+    margin-top: 0rem;
+    margin-bottom: 0;
 }
 
 .agregarComentarios button{
     margin-top: 20px;
+    border-radius: 100px;
+    width: 10rem;
+    height: 2rem;
+    border: solid 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.agregarComentarios{
+    background-color: rgb(23, 33, 43);
+    width: 30rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+.comentarioAgregados{
+    background-color: rgb(23, 33, 43);
+    width: 30rem;
+    border-radius: 10px;
+}
+
+.agregarComentarios form input[type="text"]{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: solid 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.filaComentario {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.comentariosAgregadosContenedor{
+    border: solid 2px white;
+}
+
+.comentariosAgregadosContenedor h5{
+    margin-bottom: 0;
+}
+
+.comentariosAgregadosContenedor button{
+    border: solid 0;
+    background-color: white;
+    border-radius: 100px;
+    height: 1.5rem;
+    width: 6rem;
+    cursor: pointer;
 }
